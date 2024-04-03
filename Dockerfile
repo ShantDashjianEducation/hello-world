@@ -2,7 +2,7 @@ FROM eclipse-temurin:17-jdk-alpine
 
 # Set the working directory
 WORKDIR /app
-
+VOLUME /temp
 # Copy the Gradle build files
 COPY build.gradle .
 COPY settings.gradle .

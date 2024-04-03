@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.helloworld.HelloWorldApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-04-03T09:50:43" hostname="Shants-MBP.bbrouter" time="2.215">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.helloworld.HelloWorldApplicationTests" time="2.215"/>
+  <system-out><![CDATA[13:50:39.589 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.helloworld.HelloWorldApplicationTests]: HelloWorldApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:50:39.838 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.helloworld.HelloWorldApplication for test class com.example.helloworld.HelloWorldApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.4)
+
+2024-04-03T13:50:40.904+04:00  INFO 96310 --- [hello-world] [    Test worker] c.e.h.HelloWorldApplicationTests         : Starting HelloWorldApplicationTests using Java 17.0.4.1 with PID 96310 (started by shantdashjian in /Users/shantdashjian/work/it-space/cloud-native-devops-training/practice/hello-world)
+2024-04-03T13:50:40.907+04:00  INFO 96310 --- [hello-world] [    Test worker] c.e.h.HelloWorldApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-04-03T13:50:43.943+04:00  INFO 96310 --- [hello-world] [    Test worker] c.e.h.HelloWorldApplicationTests         : Started HelloWorldApplicationTests in 3.791 seconds (process running for 6.125)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,4 +1,4 @@
-FROM openjdk:23-slim-bullseye
+FROM mcr.microsoft.com/openjdk/jdk:17-ubuntu
 WORKDIR /app
 COPY . .
 RUN ./gradlew clean build

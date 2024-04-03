@@ -1,5 +1,4 @@
-# Use the AdoptOpenJDK Java 17 image as the base image
-FROM adoptopenjdk/openjdk17:jre-17.0.2_8-alpine AS builder
+FROM eclipse-temurin:17-jdk-alpine
 
 # Set the working directory
 WORKDIR /app
